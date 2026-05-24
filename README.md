@@ -2,7 +2,7 @@
 
 <div align="center">
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&pause=900&color=A78BFA&center=true&vCenter=true&width=700&lines=Building+production-grade+ML+systems+end-to-end+%F0%9F%9A%80;LLM+Cascade+%7C+RAG+Pipelines+%7C+Agentic+AI;FastAPI+%7C+Docker+%7C+MLflow+%7C+ChromaDB+%7C+Grafana;From+experiment+tracking+to+live+deployment;M.Sc.+Data+Analytics+%E2%80%94+Hildesheim%2C+Germany+%F0%9F%87%A9%F0%9F%87%AA;Open+to+Werkstudent+%2F+Internship+roles)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&pause=900&color=A78BFA&center=true&vCenter=true&width=720&lines=Building+production-grade+ML+systems+end-to-end+%F0%9F%9A%80;LLM+Cascade+%7C+RAG+Pipelines+%7C+Agentic+AI;FastAPI+%7C+Docker+%7C+MLflow+%7C+ChromaDB+%7C+Grafana;From+experiment+tracking+to+live+deployment;M.Sc.+Data+Analytics+%E2%80%94+Hildesheim%2C+Germany+%F0%9F%87%A9%F0%9F%87%AA;Open+to+Werkstudent+%2F+Internship+roles)](https://git.io/typing-svg)
 
 <br/>
 
@@ -18,39 +18,88 @@
 
 ## 👨‍💻 About Me
 
-```python
-sai = {
-    "name"     : "Saibalaji Namburi",
-    "role"     : ["ML Engineer", "MLOps", "AI Systems"],
-    "location" : "Hildesheim, Germany 🇩🇪",
-    "education": {
-        "current"  : "M.Sc. International Data Analytics",
-                   # University of Hildesheim — Summer 2026
-        "previous" : "B.Tech AI & ML — GPA 8.756 / 10",
-                   # Saveetha School of Engineering, India
-    },
-    "focus"    : [
-        "RAG Pipelines",       "Agentic AI Workflows",
-        "LLMOps",              "Production ML Systems",
-        "CI/CD for ML",        "Real-time Observability",
-    ],
-    "open_to"  : "Werkstudent / Internship — DE or Remote 🌍",
-}
-```
+<table>
+<tr>
+<td width="50%" valign="top">
 
-- 🔭 Currently building **[SupportPulse](https://github.com/saibalajinamburi/SupportPulse)** — multi-layer AI triage with LLM Cascade, ChromaDB, MLflow & Grafana
-- 🎯 Long-term goal: **AI Systems Engineer** — bridging model development and robust, scalable production infrastructure
-- 📍 Available in **Hannover · Braunschweig · Wolfsburg · Göttingen · Hildesheim** or fully **Remote**
-- 🗣️ **English** (IELTS 7 — Fluent) · **German** (A1, actively learning) · **Telugu** (Native)
+**🧑‍💻 &nbsp;Name** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Saibalaji Namburi
+
+**🎯 &nbsp;Role** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ML Engineer · MLOps · AI Systems
+
+**📍 &nbsp;Location** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Hildesheim, Germany 🇩🇪
+
+**🌍 &nbsp;Open to** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Werkstudent / Internship — DE or Remote
+
+</td>
+<td width="50%" valign="top">
+
+**🎓 &nbsp;Current** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;M.Sc. International Data Analytics
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;University of Hildesheim — Summer 2026
+
+**🏫 &nbsp;Previous** &nbsp;&nbsp;&nbsp;&nbsp;B.Tech AI & ML — GPA 8.756 / 10
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Saveetha School of Engineering, India
+
+**🗣️ &nbsp;Languages** &nbsp;English (IELTS 7) · German (A1) · Telugu
+
+</td>
+</tr>
+</table>
+
+<table>
+<tr>
+<td align="center" width="25%">🔭<br/><sub><b>Currently building</b></sub><br/><a href="https://github.com/saibalajinamburi/SupportPulse">SupportPulse</a></td>
+<td align="center" width="25%">🎯<br/><sub><b>Long-term goal</b></sub><br/>AI Systems Engineer</td>
+<td align="center" width="25%">🌱<br/><sub><b>Learning now</b></sub><br/>LangGraph · Kubernetes · German B1</td>
+<td align="center" width="25%">📍<br/><sub><b>Cities</b></sub><br/>Hannover · Braunschweig · Wolfsburg · Göttingen</td>
+</tr>
+</table>
 
 ---
 
 ## 🎓 Education
 
-| Period | Degree | Institution | Focus |
-|--------|--------|-------------|-------|
-| Apr 2026 — Present | **M.Sc. International Data Analytics** | University of Hildesheim, Germany 🇩🇪 | Machine Learning, MLOps, AI Systems, Data Pipelines |
-| Aug 2021 — Jul 2025 | **B.Tech Artificial Intelligence & ML** | Saveetha School of Engineering, India 🇮🇳 | GPA: 8.756 / 10 — Deep Learning, NLP, Data Processing |
+<table>
+<tr>
+<td width="15%" align="center">🟣<br/><b>2026 →</b></td>
+<td width="85%">
+
+**M.Sc. International Data Analytics** — University of Hildesheim, Germany 🇩🇪
+
+Focus: Machine Learning · MLOps · AI Systems · Data Pipelines
+
+</td>
+</tr>
+<tr>
+<td width="15%" align="center">🔵<br/><b>2021–2025</b></td>
+<td width="85%">
+
+**B.Tech Artificial Intelligence & Machine Learning** — Saveetha School of Engineering, India 🇮🇳
+
+GPA: **8.756 / 10** · Focus: Deep Learning · NLP · Data Processing
+
+</td>
+</tr>
+</table>
+
+---
+
+## 💼 Experience
+
+<table>
+<tr>
+<td width="15%" align="center">🟠<br/><b>Apr 2024<br/>Mar 2025</b></td>
+<td width="85%">
+
+**AI Application Developer — Internship** · Saveetha School of Engineering, Chennai
+
+- Designed and launched DentalSolutions on Google Play — a patient-doctor platform with appointment booking and WhatsApp integration
+- Owned backend API development (FastAPI/Python) and implemented automated monitoring workflows for production-grade availability
+- Optimised database queries, improving data retrieval speed by over 35%
+- Delivered ML feature deployments with quality assurance and A/B testing
+
+</td>
+</tr>
+</table>
 
 ---
 
@@ -232,29 +281,15 @@ Private, local-first LLM systems with semantic retrieval, agentic workflows, and
 
 ---
 
-## 🐍 Contribution Snake
-
-<div align="center">
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/saibalajinamburi/saibalajinamburi/output/snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/saibalajinamburi/saibalajinamburi/output/snake.svg" />
-  <img alt="Contribution Snake" src="https://raw.githubusercontent.com/saibalajinamburi/saibalajinamburi/output/snake.svg" />
-</picture>
-
-</div>
-
----
-
 ## 🎯 Currently Focused On
 
 ```
-Area                         Progress               Status
-─────────────────────────────────────────────────────────
-SupportPulse (flagship)      ████████████████░░░░   Active — May 2026
-LangGraph Agentic Agents     ████████████░░░░░░░░   Deep dive
-Kubernetes Orchestration     ████████░░░░░░░░░░░░   Exploring
-German Language A1 to B2     █████░░░░░░░░░░░░░░░   Daily practice
+  Area                              Status
+  ────────────────────────────────────────────────────────
+  SupportPulse  (flagship build)   ████████████████░░░░  Active — May 2026
+  LangGraph Agentic Workflows      ████████████░░░░░░░░  Deep dive
+  Kubernetes Orchestration         ████████░░░░░░░░░░░░  Exploring
+  German Language  (A1 → B2)       █████░░░░░░░░░░░░░░░  Daily practice 🇩🇪
 ```
 
 ---
