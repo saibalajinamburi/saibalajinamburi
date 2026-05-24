@@ -49,7 +49,7 @@
 <tr>
 <td align="center" width="25%">🔭<br/><sub><b>Currently building</b></sub><br/><a href="https://github.com/saibalajinamburi/CustomerCore">CustomerCore</a></td>
 <td align="center" width="25%">🎯<br/><sub><b>Long-term goal</b></sub><br/>AI Systems Engineer</td>
-<td align="center" width="25%">🌱<br/><sub><b>Learning now</b></sub><br/>LangGraph · Kubernetes · German B1</td>
+<td align="center" width="25%">🌱<br/><sub><b>Learning now</b></sub><br/>LangGraph · Kubernetes · German A1</td>
 <td align="center" width="25%">📍<br/><sub><b>Cities</b></sub><br/>Hannover · Braunschweig · Wolfsburg · Göttingen</td>
 </tr>
 </table>
