@@ -299,15 +299,13 @@ Private, local-first LLM systems with semantic retrieval, agentic workflows, and
 
 ## 🎯 Currently Focused On
 
-```
-  Area                                      Status
-  ──────────────────────────────────────────────────────────────────
-  CustomerCore  (Completed — Phase 19/19)       ████████████████████   Flagship project
-  LangGraph Agentic Workflows               ████████████████████   Production level
-  EU AI Act Compliance + Model Cards        ████████████░░░░░░░░   Researching
-  Kubernetes Orchestration                  ████████████░░░░░░░░   Advancing
-  German Language  (A1 → B2)               █████░░░░░░░░░░░░░░░░   Daily practice 🇩🇪
-```
+| Area | Progress | Status |
+|:-----|:--------:|:-------|
+| **CustomerCore** (Completed · 19/19) | `████████████████████` | 🏆 Flagship — Shipped |
+| **LangGraph** Agentic Workflows | `████████████████████` | ✅ Production level |
+| EU AI Act Compliance + Model Cards | `████████████░░░░░░░░` | 🔍 Researching |
+| Kubernetes Orchestration | `████████░░░░░░░░░░░░` | 📈 Advancing |
+| German Language (A1 → B2) | `████░░░░░░░░░░░░░░░░` | 📅 Daily practice 🇩🇪 |
 
 ---
 
