@@ -1,8 +1,8 @@
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:4776E6,100:8E54E9&height=220&section=header&text=Saibalaji%20Namburi&fontSize=56&fontColor=fff&animation=twinkling&fontAlignY=38&desc=ML%20Engineer%20%7C%20MLOps%20%7C%20LLM%20Systems%20(RAG%2C%20Agentic%20AI)&descAlignY=58&descAlign=50" width="100%"/>
+﻿<img src="https://capsule-render.vercel.app/api?type=waving&color=0:4776E6,100:8E54E9&height=220&section=header&text=Saibalaji%20Namburi&fontSize=56&fontColor=fff&animation=twinkling&fontAlignY=38&desc=ML%20Engineer%20%7C%20MLOps%20%7C%20LLM%20Systems%20(RAG%2C%20Agentic%20AI)&descAlignY=58&descAlign=50" width="100%"/>
 
 <div align="center">
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&pause=900&color=A78BFA&center=true&vCenter=true&width=720&lines=Building+production-grade+ML+systems+end-to-end+%F0%9F%9A%80;LangGraph+%7C+RAG+Pipelines+%7C+Agentic+AI;FastAPI+%7C+Docker+%7C+MLflow+%7C+ChromaDB+%7C+Grafana;Multi-tenant+B2B+AI+%7C+EU+AI+Act+Compliance;Currently+building+CustomerCore+%F0%9F%94%A5;M.Sc.+Data+Analytics+%E2%80%94+Hildesheim%2C+Germany+%F0%9F%87%A9%F0%9F%87%AA)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&pause=900&color=A78BFA&center=true&vCenter=true&width=720&lines=Building+production-grade+ML+systems+end-to-end+%F0%9F%9A%80;LangGraph+%7C+RAG+Pipelines+%7C+Agentic+AI;FastAPI+%7C+Docker+%7C+MLflow+%7C+ChromaDB+%7C+Grafana;Multi-tenant+B2B+AI+%7C+EU+AI+Act+Compliance;CustomerCore\+%E2%80%94\+Flagship\+Complete\+%E2%9C%85;M.Sc.+Data+Analytics+%E2%80%94+Hildesheim%2C+Germany+%F0%9F%87%A9%F0%9F%87%AA)](https://git.io/typing-svg)
 
 <br/>
 
@@ -47,7 +47,7 @@
 
 <table>
 <tr>
-<td align="center" width="25%">🔭<br/><sub><b>Currently building</b></sub><br/><a href="https://github.com/saibalajinamburi/CustomerCore">CustomerCore</a></td>
+<td align="center" width="25%">🏆<br/><sub><b>Flagship Project</b></sub><br/><a href="https://github.com/saibalajinamburi/CustomerCore">CustomerCore</a></td>
 <td align="center" width="25%">🎯<br/><sub><b>Long-term goal</b></sub><br/>AI Systems Engineer</td>
 <td align="center" width="25%">🌱<br/><sub><b>Learning now</b></sub><br/>LangGraph · Kubernetes · German A1</td>
 <td align="center" width="25%">📍<br/><sub><b>Cities</b></sub><br/>Hannover · Braunschweig · Wolfsburg · Göttingen</td>
@@ -142,7 +142,7 @@ Private, local-first LLM systems with semantic retrieval, agentic workflows, and
 ## 🚀 Projects
 
 ### 🔥 [CustomerCore — Real-time B2B Customer Intelligence Platform](https://github.com/saibalajinamburi/CustomerCore)
-**Active Build** &nbsp;·&nbsp; *May 2026 – Present*
+**Completed &nbsp;·&nbsp; *May 2026**
 
 > A multi-tenant B2B SaaS platform that processes support tickets end-to-end: reads the problem, predicts urgency, detects outages, scores churn risk, and routes to the right agent — autonomously. Architected to the same standards as Sierra AI and Decagon AI.
 
@@ -163,14 +163,16 @@ Private, local-first LLM systems with semantic retrieval, agentic workflows, and
 - **Safety:** 7-rule Constitutional Policy Engine · GDPR AES-256 vault · RBAC decryption · audit log
 - **Infra:** Docker Compose · Kubernetes (Kind) · GitHub Actions CI/CD · Prometheus metrics
 
-![Phase](https://img.shields.io/badge/Phase-13%20of%2018-brightgreen?style=flat-square)
-![Tests](https://img.shields.io/badge/Tests-223%20passing-success?style=flat-square)
-![Dataset](https://img.shields.io/badge/Dataset-87k%20rows%20·%204%20languages-blue?style=flat-square)
-![Stack](https://img.shields.io/badge/Stack-18%20production%20tools-purple?style=flat-square)
+![Phase](https://img.shields.io/badge/Completed-19%20of%2019-brightgreen?style=flat-square)
+![Tests](https://img.shields.io/badge/Tests-307%20passing-success?style=flat-square)
+![Dataset](https://img.shields.io/badge/Deployment-Live%20HF%20Spaces-blue?style=flat-square)
+![Stack](https://img.shields.io/badge/Safety-Constitutional%20AI%208%20rules-purple?style=flat-square)
 
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/saibalajinamburi/CustomerCore)
+[![Live Demo](https://img.shields.io/badge/Live_Demo-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)](https://huggingface.co/spaces/saibalajiomg/customercore)
+[![DagsHub](https://img.shields.io/badge/DagsHub_Experiments-F4812D?style=for-the-badge&logoColor=white)](https://dagshub.com/saibalajinamburi/CustomerCore)
 
-**Phases complete:** Foundation · Redpanda Streaming · PySpark Lakehouse · dbt Gold · Privacy Vault · Hybrid RAG · LLM Router · Multilingual + Graph-RAG · LangGraph Agents · FastAPI · Langfuse · Supabase · DB Integration
+**Phases complete: Foundation · Redpanda Streaming · PySpark Lakehouse · dbt Gold · Privacy Vault · Hybrid RAG · LLM Router · Multilingual + Graph-RAG · LangGraph Agents · FastAPI · Langfuse · Supabase · DB Integration · RBAC HITL · Semantic Cache · SLA Router · Connection Pooler · Constitutional AI · Full Deployment (19/19 ✅)
 
 ---
 
@@ -300,10 +302,10 @@ Private, local-first LLM systems with semantic retrieval, agentic workflows, and
 ```
   Area                                      Status
   ──────────────────────────────────────────────────────────────────
-  CustomerCore  (Phase 13 of 18)            ████████████████░░░░░   Active build
-  LangGraph Agentic Workflows               ████████████████░░░░░   Deep in Phase 9
-  EU AI Act Compliance + Model Cards        ████████░░░░░░░░░░░░░   Phase 16 ahead
-  Kubernetes Orchestration                  ████████░░░░░░░░░░░░░   Phase 14 ahead
+  CustomerCore  (Completed — Phase 19/19)       ████████████████████   Flagship project
+  LangGraph Agentic Workflows               ████████████████████   Production level
+  EU AI Act Compliance + Model Cards        ████████████░░░░░░░░   Researching
+  Kubernetes Orchestration                  ████████████░░░░░░░░   Advancing
   German Language  (A1 → B2)               █████░░░░░░░░░░░░░░░░   Daily practice 🇩🇪
 ```
 
