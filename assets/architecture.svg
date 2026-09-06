@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 160" width="100%" height="100%">
+  <defs>
+    <linearGradient id="archBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#090D16" />
+      <stop offset="100%" stop-color="#0F172A" />
+    </linearGradient>
+  </defs>
+
+  <style>
+    .step-num { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; font-size: 10px; font-weight: 700; fill: #38BDF8; letter-spacing: 1px; }
+    .step-title { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; font-size: 13px; font-weight: 600; fill: #FFFFFF; }
+    .step-desc { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; font-size: 10.5px; fill: #94A3B8; }
+    .arrow { fill: none; stroke: #475569; stroke-width: 1.5; marker-end: url(#arrowhead); }
+  </style>
+
+  <defs>
+    <marker id="arrowhead" markerWidth="6" markerHeight="6" refX="5" refY="3" orient="auto">
+      <polygon points="0 0, 6 3, 0 6" fill="#64748B" />
+    </marker>
+  </defs>
+
+  <rect width="850" height="160" rx="10" fill="url(#archBg)" stroke="#1E293B" stroke-width="1.5" />
+
+  <!-- 4 Pipeline Stages -->
+  <!-- Stage 1 -->
+  <g transform="translate(25, 30)">
+    <rect width="175" height="100" rx="8" fill="#131B2E" stroke="#1E293B" stroke-width="1"/>
+    <text x="14" y="24" class="step-num">STAGE 01</text>
+    <text x="14" y="44" class="step-title">Streaming Ingest</text>
+    <text x="14" y="65" class="step-desc">Redpanda (C++ Kafka)</text>
+    <text x="14" y="82" class="step-desc">PySpark Structured Stream</text>
+  </g>
+
+  <!-- Arrow 1 to 2 -->
+  <line x1="205" y1="80" x2="228" y2="80" class="arrow" />
+
+  <!-- Stage 2 -->
+  <g transform="translate(235, 30)">
+    <rect width="175" height="100" rx="8" fill="#131B2E" stroke="#1E293B" stroke-width="1"/>
+    <text x="14" y="24" class="step-num">STAGE 02</text>
+    <text x="14" y="44" class="step-title">Agentic Core</text>
+    <text x="14" y="65" class="step-desc">LangGraph State Supervisor</text>
+    <text x="14" y="82" class="step-desc">ChromaDB + BM25 RAG</text>
+  </g>
+
+  <!-- Arrow 2 to 3 -->
+  <line x1="415" y1="80" x2="438" y2="80" class="arrow" />
+
+  <!-- Stage 3 -->
+  <g transform="translate(445, 30)">
+    <rect width="175" height="100" rx="8" fill="#131B2E" stroke="#1E293B" stroke-width="1"/>
+    <text x="14" y="24" class="step-num">STAGE 03</text>
+    <text x="14" y="44" class="step-title">Routing &amp; Safety</text>
+    <text x="14" y="65" class="step-desc">LiteLLM SLA Router (-54%)</text>
+    <text x="14" y="82" class="step-desc">Constitutional AI Policy</text>
+  </g>
+
+  <!-- Arrow 3 to 4 -->
+  <line x1="625" y1="80" x2="648" y2="80" class="arrow" />
+
+  <!-- Stage 4 -->
+  <g transform="translate(655, 30)">
+    <rect width="170" height="100" rx="8" fill="#131B2E" stroke="#1E293B" stroke-width="1"/>
+    <text x="14" y="24" class="step-num">STAGE 04</text>
+    <text x="14" y="44" class="step-title">LLMOps &amp; Trace</text>
+    <text x="14" y="65" class="step-desc">Langfuse Cloud Traces</text>
+    <text x="14" y="82" class="step-desc">Prometheus &amp; Grafana</text>
+  </g>
+</svg>

@@ -1,0 +1,126 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 400" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0B0F19" />
+      <stop offset="50%" stop-color="#111827" />
+      <stop offset="100%" stop-color="#0F172A" />
+    </linearGradient>
+    <linearGradient id="primaryBox" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#312E81" />
+      <stop offset="100%" stop-color="#4338CA" />
+    </linearGradient>
+    <linearGradient id="accentBox" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0E7490" />
+      <stop offset="100%" stop-color="#0891B2" />
+    </linearGradient>
+    <linearGradient id="highlightBox" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#065F46" />
+      <stop offset="100%" stop-color="#059669" />
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#6366F1" flood-opacity="0.25"/>
+    </filter>
+  </defs>
+
+  <style>
+    .title { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; font-size: 13px; font-weight: 700; letter-spacing: 1.5px; fill: #94A3B8; text-transform: uppercase; }
+    .box-title { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; font-size: 13px; font-weight: 600; fill: #FFFFFF; }
+    .box-sub { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; font-size: 10.5px; fill: #CBD5E1; }
+    .line { stroke: #334155; stroke-width: 1.5; stroke-dasharray: 4,4; }
+    .solid-line { stroke: #475569; stroke-width: 1.5; }
+    .tagline { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; font-size: 13px; font-style: italic; font-weight: 500; fill: #38BDF8; }
+  </style>
+
+  <!-- Container -->
+  <rect width="850" height="400" rx="14" fill="url(#bgGrad)" stroke="#1E293B" stroke-width="1.5" />
+
+  <!-- Section Header -->
+  <text x="425" y="32" text-anchor="middle" class="title">System Design Philosophy</text>
+
+  <!-- Level 1: AI Systems Root -->
+  <g transform="translate(325, 48)">
+    <rect width="200" height="40" rx="8" fill="url(#primaryBox)" stroke="#6366F1" stroke-width="1.5" filter="url(#glow)"/>
+    <text x="100" y="25" text-anchor="middle" class="box-title">AI SYSTEMS</text>
+  </g>
+
+  <!-- Connecting Lines from Root to 3 Components -->
+  <path d="M 425 88 L 425 105" class="solid-line" />
+  <path d="M 175 105 L 675 105" class="solid-line" />
+  <path d="M 175 105 L 175 120" class="solid-line" />
+  <path d="M 425 105 L 425 120" class="solid-line" />
+  <path d="M 675 105 L 675 120" class="solid-line" />
+
+  <!-- Level 2: 3 Building Blocks -->
+  <g transform="translate(85, 120)">
+    <rect width="180" height="46" rx="6" fill="#1E293B" stroke="#475569" stroke-width="1" />
+    <text x="90" y="21" text-anchor="middle" class="box-title">LLMs</text>
+    <text x="90" y="37" text-anchor="middle" class="box-sub">Routing · Cascades · Inference</text>
+  </g>
+
+  <g transform="translate(335, 120)">
+    <rect width="180" height="46" rx="6" fill="#1E293B" stroke="#475569" stroke-width="1" />
+    <text x="90" y="21" text-anchor="middle" class="box-title">RAG</text>
+    <text x="90" y="37" text-anchor="middle" class="box-sub">Hybrid Search · Fusion · Cache</text>
+  </g>
+
+  <g transform="translate(585, 120)">
+    <rect width="180" height="46" rx="6" fill="#1E293B" stroke="#475569" stroke-width="1" />
+    <text x="90" y="21" text-anchor="middle" class="box-title">AGENTS</text>
+    <text x="90" y="37" text-anchor="middle" class="box-sub">State Graphs · Tools · HITL</text>
+  </g>
+
+  <!-- Connecting Lines from 3 Components to Mid Layer -->
+  <path d="M 175 166 L 175 180" class="solid-line" />
+  <path d="M 425 166 L 425 180" class="solid-line" />
+  <path d="M 675 166 L 675 180" class="solid-line" />
+  <path d="M 175 180 L 675 180" class="solid-line" />
+  <path d="M 425 180 L 425 195" class="solid-line" />
+
+  <!-- Level 3: AI Applications Core -->
+  <g transform="translate(315, 195)">
+    <rect width="220" height="38" rx="6" fill="url(#accentBox)" stroke="#06B6D4" stroke-width="1.2"/>
+    <text x="110" y="24" text-anchor="middle" class="box-title">AI APPLICATIONS</text>
+  </g>
+
+  <!-- Connecting Lines to Infrastructure Pillars -->
+  <path d="M 425 233 L 425 248" class="solid-line" />
+  <path d="M 175 248 L 675 248" class="solid-line" />
+  <path d="M 175 248 L 175 260" class="solid-line" />
+  <path d="M 425 248 L 425 260" class="solid-line" />
+  <path d="M 675 248 L 675 260" class="solid-line" />
+
+  <!-- Level 4: 3 Operational Pillars -->
+  <g transform="translate(85, 260)">
+    <rect width="180" height="46" rx="6" fill="#1E293B" stroke="#475569" stroke-width="1" />
+    <text x="90" y="21" text-anchor="middle" class="box-title">DATA SYSTEMS</text>
+    <text x="90" y="37" text-anchor="middle" class="box-sub">Streaming · Lakehouse · Stores</text>
+  </g>
+
+  <g transform="translate(335, 260)">
+    <rect width="180" height="46" rx="6" fill="#1E293B" stroke="#475569" stroke-width="1" />
+    <text x="90" y="21" text-anchor="middle" class="box-title">EVAL &amp; SAFETY</text>
+    <text x="90" y="37" text-anchor="middle" class="box-sub">Testing · Guardrails · Privacy</text>
+  </g>
+
+  <g transform="translate(585, 260)">
+    <rect width="180" height="46" rx="6" fill="#1E293B" stroke="#475569" stroke-width="1" />
+    <text x="90" y="21" text-anchor="middle" class="box-title">LLMOPS</text>
+    <text x="90" y="37" text-anchor="middle" class="box-sub">Tracing · Metrics · Containers</text>
+  </g>
+
+  <!-- Connecting Lines to Production -->
+  <path d="M 175 306 L 175 318" class="solid-line" />
+  <path d="M 425 306 L 425 318" class="solid-line" />
+  <path d="M 675 306 L 675 318" class="solid-line" />
+  <path d="M 175 318 L 675 318" class="solid-line" />
+  <path d="M 425 318 L 425 330" class="solid-line" />
+
+  <!-- Level 5: Production Outcome -->
+  <g transform="translate(315, 330)">
+    <rect width="220" height="34" rx="6" fill="url(#highlightBox)" stroke="#10B981" stroke-width="1.2"/>
+    <text x="110" y="22" text-anchor="middle" class="box-title">PRODUCTION SYSTEM</text>
+  </g>
+
+  <!-- Footer Philosophy -->
+  <text x="425" y="385" text-anchor="middle" class="tagline">"Models are components. Systems are products."</text>
+</svg>

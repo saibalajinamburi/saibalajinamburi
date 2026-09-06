@@ -1,0 +1,37 @@
+name: Refresh Profile Dynamics
+
+on:
+  schedule:
+    # Run once daily at 06:00 UTC
+    - cron: "0 6 * * *"
+  workflow_dispatch:
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout Profile Repository
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Verify Asset Integrity & Sync
+        run: |
+          echo "Verifying local SVG assets and profile integrity..."
+          test -f assets/ai-systems.svg || exit 1
+          test -f assets/customer-core.svg || exit 1
+          test -f assets/hero-dark.svg || exit 1
+          test -f assets/hero-light.svg || exit 1
+          echo "All core assets verified."
+
+      - name: Commit & Push Changes (if updated)
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git diff --quiet && git diff --staged --quiet || (git commit -m "chore(profile): daily maintenance & asset sync [skip ci]" && git push)
