@@ -1,200 +1,165 @@
 <div align="center">
 
-<!-- ==================== HERO SECTION ==================== -->
+<!-- HERO — dark/light responsive -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.svg">
+  <source media="(prefers-color-scheme: dark)"  srcset="assets/hero-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="assets/hero-light.svg">
-  <img src="assets/hero-dark.svg" alt="Saibalaji Namburi - AI Systems Engineer" width="100%">
+  <img src="assets/hero-dark.svg" alt="Saibalaji Namburi — AI Systems Engineer" width="100%">
 </picture>
 
-<br/><br/>
+<br/>
 
-<a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=18&pause=1000&color=38BDF8&center=true&vCenter=true&width=650&lines=%3E+Building+production-grade+AI+systems;%3E+LLMs+%E2%80%A2+RAG+%E2%80%A2+Agentic+AI+%E2%80%A2+LLMOps;%3E+From+model+%E2%86%92+system+%E2%86%92+production;%3E+M.Sc.+Data+Analytics+%40+University+of+Hildesheim+%F0%9F%87%A9%F0%9F%87%AA" alt="Typing SVG" />
-</a>
-
-<br/><br/>
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/saibalajinamburi)
-&nbsp;&nbsp;
-[![Portfolio](https://img.shields.io/badge/Portfolio-Live_App-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://saibalaji-portfolio.vercel.app)
-&nbsp;&nbsp;
-[![Email](https://img.shields.io/badge/Email-Direct_Contact-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:saibalajinamburi@gmail.com)
-
-<br/><br/>
-
-> **I engineer production AI systems** — combining streaming data infrastructure with stateful multi-agent graphs, sub-10ms hybrid retrieval, and cost-aware inference.
-
-</div>
-
----
-
-## ⚡ What I Build
-
-| Discipline | Engineering Focus |
-| :--- | :--- |
-| 🧠 **LLM Systems** | Production LLM applications, semantic routing gateways, and cost-aware inference |
-| 🔎 **RAG Systems** | Sub-10ms hybrid retrieval (ChromaDB dense + BM25 keyword), reciprocal rank fusion, context filtering |
-| 🤖 **Agentic AI** | Stateful multi-agent supervisor graphs, deterministic tool use, and Human-in-the-Loop workflows |
-| ⚙️ **LLMOps** | Distributed tracing, automated evaluation, guardrails, and containerized deployment |
-| 🌊 **Data Systems** | Streaming event brokers, lakehouse transformations, and real-time feature stores |
-
----
-
-## 🏛️ System Design & Philosophy
-
-<div align="center">
-
-<img src="assets/ai-systems.svg" alt="AI Systems Architecture" width="100%" />
-
-<br/><br/>
-
-```
-┌──────────────────────────────────────────────────────────────┐
-│                     ENGINEERING MINDSET                      │
-│                                                              │
-│        Models are components. Systems are products.          │
-│                                                              │
-│   • Evaluation before optimization                           │
-│   • Observability from day one                               │
-│   • Reproducible deployments                                 │
-│   • Security & privacy by design                             │
-│   • Cost-aware inference                                     │
-│   • Tests before production                                  │
-└──────────────────────────────────────────────────────────────┘
-```
-
-</div>
-
----
-
-## 🏆 Featured System: CustomerCore
-
-### [CustomerCore — Real-Time B2B Customer Intelligence Platform](https://github.com/saibalajinamburi/CustomerCore)
-
-Real-time B2B customer intelligence platform combining streaming data infrastructure with autonomous AI agents. Architected to the standards of enterprise systems like Sierra AI and Decagon AI.
-
-`LangGraph` &bull; `Hybrid RAG` &bull; `Redpanda` &bull; `PySpark` &bull; `FastAPI` &bull; `Supabase`
+<!-- Typing animation — identity, not a tech dump -->
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=17&pause=1100&color=38BDF8&center=true&vCenter=true&width=620&lines=%3E+Building+production-grade+AI+systems;%3E+LLMs+%C2%B7+RAG+%C2%B7+Agentic+AI+%C2%B7+LLMOps;%3E+From+model+%E2%86%92+system+%E2%86%92+production;%3E+Werkstudent+%2F+Internship+%E2%80%94+Germany+%F0%9F%87%A9%F0%9F%87%AA+%7C+Remote)](https://git.io/typing-svg)
 
 <br/>
 
-<div align="center">
-  <img src="assets/customer-core.svg" alt="CustomerCore Architecture" width="100%" />
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/saibalajinamburi)
+[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://saibalaji-portfolio.vercel.app)
+[![Hugging Face](https://img.shields.io/badge/HuggingFace-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)](https://huggingface.co/spaces/saibalajiomg)
+[![DagsHub](https://img.shields.io/badge/DagsHub-F4812D?style=for-the-badge&logoColor=white)](https://dagshub.com/saibalajinamburi)
+[![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:saibalajinamburi@gmail.com)
+
+<br/>
+
+> I engineer production AI systems — multi-agent graphs, streaming lakehouses, hybrid RAG, and cost-aware inference pipelines that run in the real world.
+
 </div>
 
 <br/>
 
-* **19-phase production build** shipped end-to-end with modular microservices.
-* **307 automated test suites** passing with 100% verification across unit, integration, and security boundaries.
-* **Sub-10ms hybrid retrieval** fusing dense ChromaDB embeddings with BM25 keyword search via Reciprocal Rank Fusion.
-* **Multi-agent supervisor graph** coordinating 6 specialized agents with Human-in-the-Loop (HITL) authorization gates.
-* **54% LLM inference savings** achieved via intelligent SLA-aware dual-tier routing (local Ollama vs. cloud fallback).
+---
+
+## What I Build
+
+| | |
+|:--|:--|
+| **🧠 LLM Systems** | Production LLM apps, semantic SLA routing gateways, cost-aware local/cloud inference |
+| **🔎 RAG Systems** | Hybrid dense+sparse retrieval, Reciprocal Rank Fusion, sub-10ms vector search |
+| **🤖 Agentic AI** | Stateful LangGraph supervisor graphs, HITL authorization, deterministic tool-use |
+| **⚙️ LLMOps** | Distributed tracing, evaluation frameworks, guardrails, containerized rollouts |
+| **🌊 Data Systems** | Streaming event pipelines, medallion lakehouses, real-time feature stores |
+
+---
+
+## System Philosophy
+
+<div align="center">
+<img src="assets/ai-systems.svg" alt="AI Systems Design Philosophy" width="100%"/>
+</div>
+
+<br/>
+
+```
+  Evaluation before optimization  ·  Observability from day one  ·  Tests before production
+  Security & privacy by design    ·  Cost-aware inference        ·  Reproducible deployments
+```
+
+---
+
+## 🏆 Featured: CustomerCore
+
+<div align="center">
+<img src="assets/customer-core.svg" alt="CustomerCore — Flagship System" width="100%"/>
+</div>
+
+<br/>
+
+**[CustomerCore](https://github.com/saibalajinamburi/CustomerCore)** — Real-time B2B customer intelligence platform. Autonomous ticket triage, churn prediction, and incident detection at enterprise scale.
+
+`LangGraph` · `Redpanda` · `PySpark` · `ChromaDB` · `LiteLLM` · `FastAPI` · `Supabase`
+
+- **19 production phases** — shipped end-to-end, modular, containerized
+- **307 automated test suites** — unit, integration, security, regression
+- **Sub-10ms hybrid retrieval** — ChromaDB dense + BM25 keyword, Reciprocal Rank Fusion
+- **6-agent supervisor graph** — Classify · Memory · RAG · Churn · Incident · HITL
+- **54% LLM cost reduction** — intelligent SLA-aware local/cloud dual-tier routing
 
 <div align="center">
 
-[![Repository](https://img.shields.io/badge/View_Repository-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/saibalajinamburi/CustomerCore)
-&nbsp;&nbsp;
+[![Repository](https://img.shields.io/badge/Repository-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/saibalajinamburi/CustomerCore)
 [![Live Demo](https://img.shields.io/badge/Live_Demo-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)](https://huggingface.co/spaces/saibalajiomg/customercore)
-&nbsp;&nbsp;
-[![Experiments](https://img.shields.io/badge/DagsHub_Artifacts-F4812D?style=for-the-badge&logoColor=white)](https://dagshub.com/saibalajinamburi/CustomerCore)
+[![Experiments](https://img.shields.io/badge/MLflow_Runs-F4812D?style=for-the-badge&logoColor=white)](https://dagshub.com/saibalajinamburi/CustomerCore)
 
 </div>
 
 ---
 
-## 🛡️ Proof of Engineering
+## Proof, Not Claims
 
-| Production Systems | AI Systems |
-| :--- | :--- |
-| **FastAPI APIs** with strict schema validation & SSE | **LangGraph** deterministic state supervisor graphs |
-| **Docker & Kind** containerized microservices | **Sub-10ms Hybrid RAG** (Reciprocal Rank Fusion) |
-| **GitHub Actions CI/CD** & automated quality gates | **Dual-Tier SLA Routing** saving >50% inference bills |
-| **Prometheus & Grafana** real-time observability | **Automated PII Redaction** & AES-256 secure vaults |
-
-* **307 Pytest Suites:** 100% passing test coverage across unit, integration, and security boundaries in CustomerCore.
-* **80% Memory Drop:** ONNX INT8 quantization slashing scientific paper inference latency to <10ms with 100% label parity.
-* **Zero Look-Ahead Bias:** Stateful streaming ingestion and walk-forward TimeSeriesSplit validation for realistic market signals.
-* **Shipped Production App:** Clinical healthcare application on Google Play with 35% database query speedups.
+| Shipped | Metric |
+|:--|:--|
+| CustomerCore — 307 pytest suites | 100% passing across unit · integration · security layers |
+| ResearchIQ — ONNX INT8 quantization | 80% memory reduction · <10ms latency · 100% label parity |
+| Market Intelligence Engine | Walk-forward TimeSeriesSplit · zero look-ahead bias · 55% OOS win-rate |
+| DentalSolutions — Google Play | FastAPI microservices · CNN diagnostics · 35% DB query speedup |
 
 ---
 
-## 📂 Selected Work
+## Selected Work
 
-### ⚡ [SupportPulse — Enterprise Support Triage Platform](https://github.com/saibalajinamburi/SupportPulse)
-`MLOps Pipeline` &bull; `LLM Cascade` &bull; `Feast Feature Store`  
-Two-tier local LLM cascade (`Gemma2:2b` &rarr; `Gemma4:e4b`) for privacy-safe classification. Integrated Feast feature store, Great Expectations data contracts, and Docker GHCR CI/CD with 95% accuracy.
+**[SupportPulse](https://github.com/saibalajinamburi/SupportPulse)** — Enterprise AI support triage  
+Two-tier LLM cascade (Gemma2:2b → Gemma4:e4b), Feast feature store, Great Expectations, Docker GHCR CI/CD · **95% accuracy · 2ms retrieval**
 
-### 🔬 [ResearchIQ — Automated Scientific Insight Engine](https://github.com/saibalajinamburi/researchiq)
-`NLP` &bull; `ONNX INT8 Quantization` &bull; `DVC & MLflow`  
-Categorization and insight synthesis across 42k+ arXiv abstracts. Engineered ONNX INT8 quantization cutting memory by 80% with <10ms inference latency and 100% label parity.
+**[ResearchIQ](https://github.com/saibalajinamburi/researchiq)** — Scientific insight engine  
+BERT/RoBERTa over 42k+ arXiv abstracts · ONNX INT8 quantization · DVC + MLflow lineage · **80% memory cut · <10ms inference**
 
-### 📈 [Real-time Market Intelligence Engine](https://github.com/saibalajinamburi/Real-time-market-intelligence-engine)
-`Financial ML` &bull; `TimeSeriesSplit` &bull; `Sentiment Streaming`  
-Eliminated look-ahead bias and synthetic data delusions with walk-forward validation and streaming sentiment backtesting, delivering a 55% out-of-sample win rate.
+**[Real-time Market Intelligence](https://github.com/saibalajinamburi/Real-time-market-intelligence-engine)** — Financial AI pipeline  
+Streaming news sentiment · walk-forward validation · backtesting with Max Drawdown · **55% out-of-sample win-rate**
 
-### 🦷 [DentalSolutions — AI Clinical Healthcare Platform](https://github.com/SaiBalaji-N/DentalSolutions_APP)
-`Full-Stack Mobile App` &bull; `FastAPI` &bull; `TensorFlow CNN` &bull; [Google Play](https://play.google.com/store/apps/details?id=com.simats.dentalsolutions)  
-Full-stack production healthcare application live on Google Play. Built FastAPI microservices improving query latency by >35% and deployed a CNN model for dental X-ray diagnostics.
+**[DentalSolutions](https://github.com/SaiBalaji-N/DentalSolutions_APP)** — AI healthcare app · [Google Play ↗](https://play.google.com/store/apps/details?id=com.simats.dentalsolutions)  
+Full-stack Flutter + FastAPI + TensorFlow CNN · WhatsApp integration · **live on Play Store · 35% DB speedup**
 
 ---
 
-## 🛠️ AI Systems Stack
-
-| Layer | Focused Stack |
-| :--- | :--- |
-| **AI Engineering** | Python &bull; PyTorch &bull; Hugging Face Transformers &bull; LangGraph &bull; LangChain &bull; Hybrid RAG &bull; Ollama |
-| **Data & Systems** | Apache PySpark &bull; Redpanda (C++ Kafka) &bull; PostgreSQL &bull; pgvector &bull; DuckDB &bull; dbt |
-| **Production & MLOps** | Docker &bull; Kubernetes (Kind) &bull; GitHub Actions &bull; MLflow &bull; Prometheus &bull; Grafana &bull; FastAPI |
-| **Observability & Safety** | Langfuse Tracing &bull; OpenTelemetry &bull; Great Expectations &bull; Presidio PII &bull; Constitutional Guardrails |
+## Stack
 
 <div align="center">
-
-<br/>
 
 <a href="https://skillicons.dev">
-  <img src="https://skillicons.dev/icons?i=py,pytorch,fastapi,docker,kubernetes,postgres,git,githubactions,grafana,prometheus,kafka,linux&theme=dark" alt="Skills strip" />
+  <img src="https://skillicons.dev/icons?i=py,pytorch,fastapi,docker,kubernetes,postgres,git,githubactions,grafana,prometheus,kafka,linux&theme=dark" />
 </a>
 
 </div>
 
----
+<br/>
 
-## 🎓 Education & Experience
-
-* **M.Sc. International Data Analytics** &mdash; *University of Hildesheim, Germany* 🇩🇪 `2026`  
-  *Focus:* Machine Learning Systems, Distributed Data Processing, MLOps, Advanced Analytics.
-* **B.Tech Artificial Intelligence & Machine Learning** &mdash; *Saveetha School of Engineering, India* 🇮🇳 `2021 – 2025`  
-  *GPA:* **8.756 / 10** (First Class with Distinction) &bull; *Focus:* Deep Learning, NLP, Data Architecture.
-* **AI Application Developer (Internship)** &mdash; *Saveetha School of Engineering* `Apr 2024 – Mar 2025`  
-  Shipped DentalSolutions on Google Play; engineered production FastAPI APIs reducing database latency by 35%.
+| | |
+|:--|:--|
+| **AI** | Python · PyTorch · Transformers · LangGraph · LangChain · LiteLLM · Ollama · ChromaDB |
+| **Data** | PySpark · Redpanda · PostgreSQL · pgvector · DuckDB · dbt · Supabase |
+| **MLOps** | MLflow · DVC · Feast · Great Expectations · Docker · Kubernetes · GitHub Actions |
+| **Observability** | Langfuse · Prometheus · Grafana · OpenTelemetry · Presidio · Ruff · Pytest |
 
 ---
 
-## 🔭 Currently
+## Background
 
-* 🎓 **M.Sc. Data Analytics** &mdash; University of Hildesheim, Germany
-* 🔨 **Building:** Production-grade multi-agent architectures & streaming lakehouses
-* ⚙️ **Deepening:** Kubernetes orchestration &bull; LLM evaluation benchmarks &bull; Distributed systems
-* 🎯 **Looking for:** **Werkstudent** (Working Student, 20h/wk) or **Internship** in AI Systems / MLOps / LLMOps
+**M.Sc. International Data Analytics** — University of Hildesheim, Germany 🇩🇪 · `2026`  
+**B.Tech AI & Machine Learning** — Saveetha School of Engineering, India 🇮🇳 · `2021–2025` · GPA **8.756 / 10**  
+**AI Application Developer (Internship)** — Saveetha · `Apr 2024 – Mar 2025` · Shipped DentalSolutions to Google Play
+
+---
+
+## Now
+
+🎓 &nbsp;M.Sc. Data Analytics — Hildesheim &nbsp;&nbsp;|&nbsp;&nbsp; 🔨 &nbsp;Building multi-agent systems & streaming lakehouses  
+⚙️ &nbsp;Deepening: Kubernetes · LLM evaluation · distributed systems  
+🎯 &nbsp;**Seeking:** Werkstudent (20h/wk) or Internship · AI Systems / MLOps / LLMOps  
+📍 &nbsp;Hannover · Braunschweig · Wolfsburg · Göttingen · Hildesheim · Remote
 
 ---
 
 <div align="center">
 
-### 📍 Hildesheim, Lower Saxony, Germany &nbsp;|&nbsp; 📡 Open to Remote (Germany / EU)
-
-**Commutable to:** `Hannover` &bull; `Braunschweig` &bull; `Wolfsburg` &bull; `Göttingen` &bull; `Hildesheim` &bull; `Remote`
+[![LinkedIn](https://img.shields.io/badge/Connect_on_LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/saibalajinamburi)
+&nbsp;
+[![Email](https://img.shields.io/badge/Say_Hello-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:saibalajinamburi@gmail.com)
+&nbsp;
+[![Portfolio](https://img.shields.io/badge/View_Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://saibalaji-portfolio.vercel.app)
 
 <br/>
 
-[![LinkedIn](https://img.shields.io/badge/Connect_on_LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/saibalajinamburi)
-&nbsp;&nbsp;
-[![Send Email](https://img.shields.io/badge/Send_an_Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:saibalajinamburi@gmail.com)
-&nbsp;&nbsp;
-[![Portfolio](https://img.shields.io/badge/Explore_Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://saibalaji-portfolio.vercel.app)
-
-<br/><br/>
-
-<sub>Engineered with precision &bull; Saibalaji Namburi &bull; © 2026</sub>
+<sub>Saibalaji Namburi · 2026</sub>
 
 </div>

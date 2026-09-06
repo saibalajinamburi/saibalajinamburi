@@ -1,39 +1,67 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 200" width="100%" height="100%">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 200">
   <defs>
-    <linearGradient id="heroDarkBg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#090D16" />
-      <stop offset="50%" stop-color="#111827" />
-      <stop offset="100%" stop-color="#1E1B4B" />
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#080D18"/>
+      <stop offset="100%" stop-color="#0F172A"/>
     </linearGradient>
-    <linearGradient id="accentDark" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#6366F1" />
-      <stop offset="50%" stop-color="#38BDF8" />
-      <stop offset="100%" stop-color="#A855F7" />
+    <linearGradient id="border" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%"   stop-color="#6366F1"/>
+      <stop offset="50%"  stop-color="#38BDF8"/>
+      <stop offset="100%" stop-color="#10B981"/>
     </linearGradient>
+    <linearGradient id="badgeBg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0F1B2D"/>
+      <stop offset="100%" stop-color="#091525"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
   </defs>
+  <style>
+    @keyframes pulse {
+      0%, 100% { opacity: 1; }
+      50%       { opacity: 0.55; }
+    }
+    .border-line { animation: pulse 3s ease-in-out infinite; }
+  </style>
 
-  <rect width="900" height="200" rx="14" fill="url(#heroDarkBg)" stroke="#1F2937" stroke-width="1.5" />
-  <rect x="0" y="0" width="900" height="3" fill="url(#accentDark)" />
+  <!-- Background -->
+  <rect width="900" height="200" fill="url(#bg)"/>
 
-  <g transform="translate(50, 45)">
-    <!-- Pretitle -->
-    <text x="0" y="15" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12px" font-weight="700" letter-spacing="2px" fill="#38BDF8" text-transform="uppercase">PORTFOLIO &amp; ENGINEERING SYSTEMS</text>
+  <!-- Animated top border -->
+  <rect class="border-line" y="0" width="900" height="3" fill="url(#border)" filter="url(#glow)"/>
 
-    <!-- Name -->
-    <text x="0" y="60" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="38px" font-weight="800" fill="#FFFFFF" letter-spacing="-0.5px">SAIBALAJI NAMBURI</text>
+  <!-- Name -->
+  <text x="50" y="90"
+        font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif"
+        font-size="36" font-weight="800" letter-spacing="-0.5" fill="#FFFFFF">SAIBALAJI NAMBURI</text>
 
-    <!-- Role -->
-    <text x="0" y="90" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="16px" font-weight="600" fill="#C7D2FE">AI Systems Engineer <tspan fill="#64748B">|</tspan> LLMs · RAG · Agents · LLMOps</text>
+  <!-- Role line -->
+  <text x="50" y="118"
+        font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif"
+        font-size="15" font-weight="600" fill="#C7D2FE">AI Systems Engineer · LLMs · RAG · Agents · LLMOps</text>
 
-    <!-- Subtext -->
-    <text x="0" y="115" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13px" fill="#94A3B8">M.Sc. International Data Analytics — University of Hildesheim, Germany 🇩🇪</text>
-  </g>
+  <!-- Affiliation -->
+  <text x="50" y="142"
+        font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif"
+        font-size="12" fill="#475569">M.Sc. Data Analytics — University of Hildesheim, Germany 🇩🇪</text>
 
-  <!-- Right Side Accent Badge -->
-  <g transform="translate(680, 55)">
-    <rect width="170" height="85" rx="8" fill="#172138" stroke="#312E81" stroke-width="1.2"/>
-    <text x="85" y="30" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11px" font-weight="700" letter-spacing="1px" fill="#38BDF8" text-anchor="middle">AVAILABILITY</text>
-    <text x="85" y="52" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13px" font-weight="600" fill="#FFFFFF" text-anchor="middle">Werkstudent / Intern</text>
-    <text x="85" y="70" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11px" fill="#10B981" text-anchor="middle">● Open to Roles</text>
-  </g>
+  <!-- Status badge -->
+  <rect x="680" y="50" width="185" height="95" rx="8" fill="url(#badgeBg)" stroke="#1E3A5F" stroke-width="1.2"/>
+  <text x="772" y="78"
+        font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif"
+        font-size="10" font-weight="700" letter-spacing="1.5" fill="#38BDF8" text-anchor="middle">OPEN TO ROLES</text>
+  <text x="772" y="100"
+        font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif"
+        font-size="13" font-weight="600" fill="#FFFFFF" text-anchor="middle">Werkstudent / Intern</text>
+  <text x="772" y="120"
+        font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif"
+        font-size="11" fill="#94A3B8" text-anchor="middle">📍 Hildesheim, Germany</text>
+  <!-- Green dot indicator -->
+  <circle cx="728" cy="100" r="4" fill="#10B981"/>
+  <circle cx="728" cy="100" r="4" fill="#10B981" opacity="0.4">
+    <animate attributeName="r" values="4;8;4" dur="2s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.4;0;0.4" dur="2s" repeatCount="indefinite"/>
+  </circle>
 </svg>
